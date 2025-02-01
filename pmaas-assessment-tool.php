@@ -3,7 +3,7 @@
 Plugin Name: PMaaS Assessment Tool
 Plugin URI: https://creativebits.us/pmaas-plugin
 Description: Embeds React-based Project Management Assessment Tool
-Version: 1.0
+Version: 1.0.2
 Author: David Kariuki
 Author URI: https://creativebits.us
 */
