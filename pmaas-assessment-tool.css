@@ -72,18 +72,7 @@
   cursor: not-allowed;
 }
 
-/* Grid layout for buttons */
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-@media (min-width: 640px) {
-  .sm\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-/* Button styles */
+/* Selected button styles */
 .button-selected {
   background-color: #3b82f6;
   color: #ffffff;
@@ -91,16 +80,6 @@
 
 .button-selected:hover {
   background-color: #2563eb;
-}
-
-.button-outline {
-  background-color: transparent;
-  color: #374151;
-  border: 1px solid #d1d5db;
-}
-
-.button-outline:hover {
-  background-color: #f3f4f6;
 }
 
 /* Input and Select styles */
